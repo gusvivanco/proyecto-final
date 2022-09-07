@@ -54,7 +54,9 @@
             </div>
         </nav>
     </header>
+    <!-- Titulo Politica -->
     <h1>Mantenete informado con las últimas novedades</h1>
+    <!-- Noticia Principal -->
     <section class="principalesNoticias">
       <h2>En la reunión de Gabinete, Massa se mostró preocupado por los gastos para importar energía que afectan las reservas del Banco Central</h2>
       <img src="../img/economiaD.jpg" alt="economia" class="homeEconomia img-fluid" />
@@ -71,26 +73,31 @@
         Unos minutos después de las 9, cuando ya iban 40 minutos del cónclave, el presidente Alberto Fernández se sumó a la larga mesa, en la que también sorpresivamente estuvo sentado el santafesino Agustín Rossi, titular de la Agencia Federal de Inteligencia desde principios de junio. El primer mandatario se ubicó entre Manzur y el ministro del Interior, Eduardo Wado de Pedro; cuando tomó la palabra mostró su respaldo a las primeras medidas de Massa y dijo que en esta nueva etapa de gobierno será clave “preservar la inversión en la obra pública, en vivienda, en ciencia y tecnología y en educación”.
       </p>
     </section>
-    <section class="sectionCard boxSize">
-      <div class="card" style="width: 18rem;">
-        <img src="../img/tormenta.jpg" class="card-img-top" alt="tormenta">
-        <div class="card-body">
-          <p class="card-text">
-            <a class="cardClass" href="../html/clima.html">Alerta meteorológica por tormentas y fuertes lluvias en cinco
-              provincias...</a>
-          </p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="../img/futbol.jpg" class="card-img-top" alt="futbol">
-        <div class="card-body">
-          <p class="card-text">
-            <a class="cardClass" href="../html/deportes.html">¡Los agentes de De Jong, en Barcelona para hablar de su futuro!...</a>
-          </p>
-        </div>
-      </div>
-    </section>  
-
+    <!-- CARDS -->
+            <div class="row cardBox">
+              <div class="col-xl-4 col-md-6 col-xs-12">
+                  <div class="card textAlign">
+                    <a href="../html/clima.html" class="btn colorBtn">
+                      <img src="../img/tormenta.jpg" class="card-img-top" alt="clima">
+                      <div class="card-body">
+                          <p class="card-text">Sergio Massa fue de los primeros en exponer...</p>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-xl-4 col-md-6 col-xs-12">
+                  <div class="card textAlign">
+                    <a href="../html/deportes.html" class="btn colorBtn">
+                      <img src="../img/futbol.jpg" class="card-img-top" alt="futbol">
+                      <div class="card-body">
+                          <p class="card-text">Alerta meteorológica por tormentas y fuertes lluvias...</p>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    <!-- Noticia final -->
     <section class="noticiaPolitica">
     <div class="card mb-3" style="max-width: auto;">
       <div class="row g-0">
@@ -107,6 +114,7 @@
       </div>
     </div>
   </section>
+    <!-- FOOTER -->
     <footer class="footer py-3 my-4">
       <p>
         Noticias Web - Creada y diseñada por Gustavo Lionel Vivanco -- Proyecto

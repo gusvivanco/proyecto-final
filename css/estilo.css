@@ -9,10 +9,7 @@ header img {
 body {
   background-color: #F6EFDE;
   /* Carousel */
-  /* TITULO Noticias en vivo  */
   /* section Principales noticias */
-  /* Section noticias replay */
-  /* video y texto noticias replay en Index */
   /* Destacados */
   /* Clima Section */
   /* Noticia Política */
@@ -41,22 +38,18 @@ body {
   body h1 {
     color: #fd2525;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
     margin-top: 2rem; }
   body h2 {
-    color: #083e98; }
+    color: #083e98;
+    text-align: center;
+    margin-top: 2rem; }
   body .carouselCss {
     margin-top: 2rem; }
   body .imgCarousel {
     height: 480px;
     object-fit: cover; }
-  body .noticiasVivo {
-    width: 25%;
-    height: 30%;
-    position: fixed;
-    right: 0;
-    bottom: 10%; }
   body .principalesNoticias {
     background-color: #fffef6;
     margin-top: 2rem;
@@ -66,37 +59,7 @@ body {
     body .principalesNoticias img {
       background-position: center;
       width: 100%; }
-    body .principalesNoticias h2 {
-      color: #083e98;
-      font-family: "Barlow", sans-serif;
-      font-style: oblique;
-      text-align: center;
-      margin-top: 1rem;
-      margin-bottom: 1rem; }
     body .principalesNoticias p {
-      color: #01235d;
-      font-family: "Barlow", sans-serif;
-      font-size: 1.2rem;
-      text-align: justify;
-      margin: 10px;
-      padding: 7px; }
-  body .noticiaReplay {
-    background-color: #fffef6;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 30%; }
-    body .noticiaReplay iframe {
-      background-position: center;
-      width: 100%; }
-    body .noticiaReplay h2 {
-      color: #083e98;
-      font-family: "Barlow", sans-serif;
-      font-style: oblique;
-      text-align: center;
-      margin-top: 1rem;
-      margin-bottom: 1rem; }
-    body .noticiaReplay p {
       color: #01235d;
       font-family: "Barlow", sans-serif;
       font-size: 1.2rem;
@@ -110,9 +73,6 @@ body {
     background-color: #eee;
     font: 1rem "Fira Sans", sans-serif;
     margin: auto; }
-    body .destacados h2 {
-      color: #083e98;
-      text-align: center; }
   body .noticiasDestacadas {
     display: flex;
     justify-content: flex-end; }
@@ -126,6 +86,8 @@ body {
       margin: 1rem;
       font-size: 1rem;
       font-style: italic; }
+  body .climaPosicion {
+    justify-content: center; }
   body .climaBox {
     display: flex;
     justify-content: space-between;
@@ -158,17 +120,9 @@ body {
       text-align: justify;
       margin: 10px;
       padding: 7px; }
-  body .cardClass {
-    color: #990101; }
-  body .boxSize {
-    width: 38rem;
-    margin-left: auto;
-    margin-right: auto; }
-  body .sectionCard {
-    display: flex;
-    text-align: center;
+  body .cardBox {
+    color: #990101;
     justify-content: center;
-    justify-content: space-around;
     margin-bottom: 3rem;
     margin-top: 3rem; }
   body .footer {
@@ -260,7 +214,3 @@ body {
 .fondoForm {
   background: url(../img/fondoOk.jpg) no-repeat;
   background-size: cover; }
-
-/* Media Query Celulares */
-.noticiasVivo {
-  display: none; }

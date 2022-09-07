@@ -46,12 +46,14 @@ body {
     color: $colorh1;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
     margin-top: 2rem;
   }
   h2 {
     color: $colorh2;
+    text-align: center;
+    margin-top: 2rem;
   }
   /* Carousel */
   .carouselCss {
@@ -60,17 +62,9 @@ body {
 
   .imgCarousel {
     height: 480px;
-    object-fit: cover;
+    object-fit:cover;
   }
-  /* TITULO Noticias en vivo  */
 
-  .noticiasVivo {
-    width: 25%;
-    height: 30%;
-    position: fixed;
-    right: 0;
-    bottom: 10%;
-  }
 
   /* section Principales noticias */
 
@@ -84,49 +78,6 @@ body {
     img {
       background-position: center;
       width: 100%;
-    }
-
-    h2 {
-      color: #083e98;
-      font-family: "Barlow", sans-serif;
-      font-style: oblique;
-      text-align: center;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    p {
-      color: #01235d;
-      font-family: "Barlow", sans-serif;
-      font-size: 1.2rem;
-      text-align: justify;
-      margin: 10px;
-      padding: 7px;
-    }
-  }
-
-  /* Section noticias replay */
-  /* video y texto noticias replay en Index */
-
-  .noticiaReplay {
-    background-color: #fffef6;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 30%;
-
-    iframe {
-      background-position: center;
-      width: 100%;
-    }
-
-    h2 {
-      color: $colorh2;
-      font-family: "Barlow", sans-serif;
-      font-style: oblique;
-      text-align: center;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
     }
 
     p {
@@ -149,10 +100,6 @@ body {
     font: 1rem "Fira Sans", sans-serif;
     margin: auto;
 
-    h2 {
-      color: $colorh2;
-      text-align: center;
-    }
   }
 
   .noticiasDestacadas {
@@ -174,6 +121,10 @@ body {
     }
   }
   /* Clima Section */
+
+  .climaPosicion {
+    justify-content: center;
+  }
 
   .climaBox {
     display: flex;
@@ -221,21 +172,9 @@ body {
 
   /* CARDS */
 
-  .cardClass {
+  .cardBox {
     color: #990101;
-  }
-
-  .boxSize {
-    width: 38rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sectionCard {
-    display: flex;
-    text-align: center;
     justify-content: center;
-    justify-content: space-around;
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
@@ -360,11 +299,3 @@ body {
     background-size: cover;
 }
 
-/* Media Query Celulares */
-
-@media (max-width: 699px) {
-}
-
-.noticiasVivo {
-  display: none;
-}

@@ -19,11 +19,13 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-
-    <!-- link a CSS -->
-    <link rel="stylesheet" href="css/estilo.css" />
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- link a CSS -->
+    <link rel="stylesheet" href="css/estilo.css" />
+    <!-- SEO -->
+    <meta name="description" content="Este es el sitio web de mi proyecto final para CoderHouse de Desarrollo WEB">
+    <meta name="keywords"  content="CODERHOUSE, NOTICIAS, POLITICA, DEPORTES, CLIMA">
   </head>
   <body>
     <!-- NAVBAR -->
@@ -60,6 +62,8 @@
         </nav>
     </header>
     <!-- Título del sitio -->
+    <h1>Mantenete informado con las principales noticias</h1>
+    <!-- Carousel -->
     <div id="carouselExampleCaptions" class="carousel slide carouselCss" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -98,19 +102,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
-    <h1>Mantenete informado con las principales noticias</h1>
-    <iframe
-      class="noticiasVivo"
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/wHn1_QVoXGM"
-      title="YouTube video player"
-      frameborder="5"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-      >Noticias en vivo</iframe
-    >
+    <!-- Sección noticias -->
     <section class="principalesNoticias">
       <h2>Como cerro la bolsa de Buenos Aires el día de hoy?</h2>
       <img src="img/economia.png" alt="economia" class="homeEconomia img-fluid" />
@@ -138,40 +130,7 @@
         este viernes con tendencia alcista.
       </p>
     </section>
-    <section class="noticiaReplay">
-      <h2>Reviví las noticias más importantes del 14/07</h2>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/rrAd9B5lCzA"
-        title="YouTube video player"
-        frameborder="5"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <p>
-        La segunda ola de calor del verano no da tregua y se intensifica este
-        jueves con temperaturas que alcanzarán los 45 grados, según ha informado
-        la Agencia Estatal de Meteorología (AEMET), que ha alertado de valores
-        muy altos en la mayor parte de la Península y Mallorca, con avisos por
-        sofocante calor en todas las comunidades autónomas, menos en Canarias.
-        El debate sobre el estado de la nación ha finalizado este miércoles con
-        la intervención de los grupos parlamentarios Grupo Plural, Cs, el PNV,
-        EH Bildu y Grupo Mixto, después de una primera jornada marcada por la
-        inflación y el terrorismo, en la que el presidente del Gobierno anunció
-        un impuesto excepcional sobre los beneficios extraordinarios de las
-        grandes empresas energéticas y otro a la banca. El presidente del PP ha
-        calificado este miércoles de "populistas" estas medidas. La protección
-        de las víctimas ha centrado el debate de la ley de memoria democrática
-        en el Congreso, que previsiblemente saldrá adelante en la votación de
-        este jueves gracias al respaldo de Bildu. Los socios de la coalición,
-        PSOE y Unidas Podemos, han defendido que se trata de una norma que
-        protege a "todas" las víctimas, tanto de la guerra civil, la dictadura
-        como durante la transición; mientras que desde el PP y Vox han criticado
-        que se trata de una ley "sectaria y excluyente" y que la derogarán en
-        cuanto lleguen al Gobierno.
-      </p>
-    </section>
+     <!-- FOOTER -->
     <footer class="footer py-3 my-4">
       <p>
         Noticias Web - Creada y diseñada por Gustavo Lionel Vivanco -- Proyecto
